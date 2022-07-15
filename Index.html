@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <link rel="stylesheet" href="Style.css"> 
+        <title>Java-Quiz-App</title>     
+</head>
+
+<body>
+<button class="start-quiz-btn">Los geht's</button>      
+<div class="container">
+   <div class="top-bar">
+       <div class="question-counter">
+       </div>         
+       <div class="timer">
+           <span><i class="fa-regular fa-clock"></i></span>
+           <span class="time-left">15</span>   
+       </div>
+       <div class="time_line"></div>
+</div>  
+ 
+<div class="ques-text">
+ <!--Insert Question Here-->    
+</div>
+ 
+<div class="option-div">
+ <!--Insert Option Here-->
+</div>
+
+<button class="next-ques-btn click-disable">nächste Frage</button>
+</div>
+
+<div class="result-div">
+<i class="fa-solid fa-crown"></i>   
+<span>Fertig!</span>
+<div class="score">
+   <!--Insert Score Here-->    
+</div>
+<button class="replay-quiz-btn" onclick="location.reload()">neu starten</button>
+</div>
+<script src="Questions.js"></script>
+<script src="Script.js"></script>
+</body>
+
+</html>
